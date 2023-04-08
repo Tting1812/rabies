@@ -9,8 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Prompt:wght@400;700&display=swap" rel="stylesheet">
 
     <title>โรคพิษสุนัขบ้า</title>
 
@@ -27,11 +27,16 @@
         padding-bottom: 5px;
         font-size: 20px;
       }
+      @media(min-width: 780px) {
+      .header {
+        font-size: 35px;
+      }}
       .NH {
         font-family: Prompt;
-        color: #fff;
-        padding-bottom: 5px;
-        font-size: 20px;
+        color: #000;
+        padding-bottom: 10px;
+        font-size: 18px;
+        margin: 15px;
       }
       .back {
         position: absolute;
@@ -93,17 +98,18 @@
             <img src="assets/images/รูปคือ.png" class="img-size">
           </div>
          
-          <div class="NH"> &emsp;&emsp;&emsp;โรคพิษสุนัขบ้า (Rabies) ชาวบ้านมักเรียกว่า "โรคกลัวน้ำ" หรือ "โรคหมาว้อ" เกิดจากเชื้อไวรัส เป็นได้กับสัตว์เลี้ยงลูกด้วยนมทุกชนิดไม่ว่าจะเป็น 
+          <div class="NH"> <br>&emsp;&emsp;&emsp;โรคพิษสุนัขบ้า (Rabies) ชาวบ้านมักเรียกว่า "โรคกลัวน้ำ" หรือ "โรคหมาว้อ" เกิดจากเชื้อไวรัส เป็นได้กับสัตว์เลี้ยงลูกด้วยนมทุกชนิดไม่ว่าจะเป็น 
             สุนัข แมว ชะนี ลิง กระรอก ค้างคาว หนู แม้แต่วัว ควาย แพะ ซึ่งโรคนี้หากเกิดอาการแล้วจะเสียชีวิตทุกราย
             <p><br>
             &emsp;&emsp;&emsp;เนื่องจากการติดเชื้อในระบบประสาท (Nervous system: NS) โดยเป็นเชื้อไวรัสชนิด
             อาร์เอ็นเอ (RNA) จัดอยู่ในจีนัสไลซ่าไวรัส (Genus lyssavirus) ของตระกูล Rhabdoviridae และ Mononegavirale (single-stranded RNA, nonsegmented negative sense) 
-            (Madhusudana, Subha, Thankappan, & Ashwin, 2 0 1 2 ) ซึ่งคุณลักษณะที่สำคัญของเชื้อไลซ่าไวรัส (Lyssavirus)คือการมีจีโนไทป์ที่ต่างกันถึงเจ็ดแบบ โดยจีโนมเรบี่สไวรัส หรือไวรัสพิษสุนัข (Rabies virus; RABV) มีค่าประมาณ ขนาด 12 kb ซึ่งมีโปรตีนโครงสร้าง 5 ชนิด ได้แก่ <br>          
-                  นิวคลีโอโปรตีน (Nucleoprotein; N), <br>
-                  ฟอสโฟโปรตีน (Phosphoprotein; P), <br>
-                  โปรตีนเมทริกซ์ (Matrix proteins; M), <br>
-                  ไกลโคโปรตี (Glycoprotein; G) <br>        
-                  เอนไซม์อาร์เอ็นเอพอลิเมอเรส (RNA-based RNA polymerase;L)
+            (Madhusudana, Subha, Thankappan, & Ashwin, 2 0 1 2 ) ซึ่งคุณลักษณะที่สำคัญของเชื้อไลซ่าไวรัส (Lyssavirus)คือการมีจีโนไทป์ที่ต่างกันถึงเจ็ดแบบ โดยจีโนมเรบี่สไวรัส หรือไวรัสพิษสุนัข (Rabies virus; RABV) มีค่าประมาณ ขนาด 12 kb ซึ่งมีโปรตีนโครงสร้าง 5 ชนิด ได้แก่ 
+            <br>          
+            &starf; นิวคลีโอโปรตีน (Nucleoprotein; N), <br>
+            &starf; ฟอสโฟโปรตีน (Phosphoprotein; P), <br>
+            &starf; โปรตีนเมทริกซ์ (Matrix proteins; M), <br>
+            &starf; ไกลโคโปรตี (Glycoprotein; G) <br>        
+            &starf; เอนไซม์อาร์เอ็นเอพอลิเมอเรส (RNA-based RNA polymerase;L)
             <p><br>
             &emsp;&emsp;&emsp;ซึ่งระยะฟักตัวหรือหลังจากการสัมผัส โรคประมาณ 2 สัปดาห์ถึง 6 ปี (โดยเฉลี่ย: 2 ถึง 3 เดือน) ขึ้นอยู่กับปริมาณเชื้อที่เข้าสู่ร่างกาย บริเวณ
               ที่ถูกข่วน (Inoculation site) และบริเวณที่ปกคุมด้วยเส้นประสาท (Innervation)โดยเฉพาะอย่างยิ่งตำแหน่งที่ถูกกัดและมีเลือดออกร่วมด้วย ได้แก่ ศีรษะ ใบหน้า ลาคอ และมือ จะส่งผลให้เกิดระยะ
@@ -113,6 +119,7 @@
             อัตราเร็ว 12-100 มิลลิเมตรต่อวัน
             <p><br>
           </div>
+          <br>
         </div>
       </div>
     </section>
